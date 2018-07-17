@@ -8,7 +8,7 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
 ### Two-photon point-scanning system
 
-a. For 2p raster-scanning imaging, AO aims to retrieve a tighted focused focal spot (diffraction-limited) to achieve both signal intensity and spatial resolution. In implementation, we: 
+a) For 2p raster-scanning imaging, AO aims to retrieve a tighted focused focal spot (diffraction-limited) to achieve both signal intensity and spatial resolution. In implementation, we: 
 
 1) detect the fluorescence abberation on the SH-imaging path;
 
@@ -16,7 +16,7 @@ a. For 2p raster-scanning imaging, AO aims to retrieve a tighted focused focal s
 
 3) collect intensity pixel-by-pixel using PMT.
 
-b. See figure e for a schematic demonstration.
+b) See figure e for a schematic demonstration.
 
 ![figure e](https://github.com/Jessie-ucb/Adaptive-Optics/blob/master/nmeth.4218-F3.jpg)
 
@@ -25,9 +25,9 @@ Note1: DO NOT need to compensate the aberation between samplet to the PMT,
        because the PMT records spatially unresolved total intensity. 
 ```
 
-c. Depending on whether or not the fluorescence goes back along the same galvos with the illumination light to the SH camera, we devide the optical system into descanned and non-descanned architectures. Descanned scheme avoids spot shifting on the SH sensor when the illumination is scanning (averaging effect, see Eric's paper).
+c) Depending on whether or not the fluorescence goes back along the same galvos with the illumination light to the SH camera, we devide the optical system into descanned and non-descanned architectures. Descanned scheme avoids spot shifting on the SH sensor when the illumination is scanning (averaging effect, see Eric's paper).
 
-d. For 2p imaging, the deformable mirror is used to correct the aberration on the illumination path. As for the fluorescence detection path, we can either apply the same correction or not, leading to two different designs:
+d) For 2p imaging, the deformable mirror is used to correct the aberration on the illumination path. As for the fluorescence detection path, we can either apply the same correction or not, leading to two different designs:
 
 * Open-loop Design
 
