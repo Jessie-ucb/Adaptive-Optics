@@ -16,8 +16,9 @@ For 2p raster-scanning imaging, AO aims to retrieve a tighted focused focal spot
 
 3) collect intensity pixel-by-pixel using PMT.
 
-See ![figure e](https://github.com/Jessie-ucb/Adaptive-Optics/master/nmeth.4218-F3.jpg) for a schematic demonstration.
+See figure e for a schematic demonstration.
 
+![figure e](https://github.com/Jessie-ucb/Adaptive-Optics/blob/master/nmeth.4218-F3.jpg)
 
 ```
 Note1: DO NOT need to compensate the aberation between samplet to the PMT, 
