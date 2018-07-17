@@ -24,9 +24,10 @@ See figure e for a schematic demonstration.
 Note1: DO NOT need to compensate the aberation between samplet to the PMT, 
        because the PMT records spatially unresolved total intensity. 
 ```
-```
-Note2: Descanned scheme avoids spot shifting on the SH sensor when the illumination is scanning.
-```
+
+Descanned scheme avoids spot shifting on the SH sensor when the illumination is scanning.
+
+For 2p imaging, the deformable mirror is used to correct the aberration on the illumination path. As for the fluorescence detection path, we can either apply the same correction or not, leading to two different designs:
 
 * Open-loop Design
 
