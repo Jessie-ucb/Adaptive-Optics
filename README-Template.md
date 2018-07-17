@@ -1,24 +1,31 @@
-# Project Title
+# Adaptive Optics
 
 One Paragraph of project description goes here
 
-## Getting Started
+## Direct Wavefront Sensing
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD camera) to detect the wavefront, whose gradients in each segments are indicated as the spot shift on the image. Using a spatial light modulator (e.g. deformable mirror) to compensate the wavefront distortion.
 
-### Prerequisites
+### Two-photon point-scanning system
 
-What things you need to install the software and how to install them
+For 2p raster-scanning imaging, we 
+
+1) detect the fluorescence abberation on the SH-imaging path;
+
+2) correct the 2p laser illumination by setting a negative value on the deformable mirror;
+
+3) collect intensity pixel-by-pixel using PMT.
+
+Note: We DO NOT need to compensate the aberation between samplet to the PMT, because the PMT records spatially unresolved total intensity. 
+
 
 ```
 Give examples
 ```
 
-### Installing
+### Wide-field imaging system
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+For
 
 ```
 Give the example
@@ -32,9 +39,12 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+## Indirect Wavefront Sensing
+
+Estimate the wavefront distortion based on some metrics (e.g. intensity, spot shift) and correct using spatial light modulator. Do not need guide-star as in direct wavefront sensing. 
+
+
 
 ### Break down into end to end tests
 
