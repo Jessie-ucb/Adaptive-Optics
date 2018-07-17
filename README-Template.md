@@ -1,6 +1,5 @@
 # Adaptive Optics
 
-One Paragraph of project description goes here
 
 ## Direct Wavefront Sensing
 
@@ -16,16 +15,16 @@ For 2p raster-scanning imaging, we
 
 3) collect intensity pixel-by-pixel using PMT.
 
-Note: We DO NOT need to compensate the aberation between samplet to the PMT, because the PMT records spatially unresolved total intensity. 
-
-
 ```
-Give examples
+Note1: We DO NOT need to compensate the aberation between samplet to the PMT, because the PMT records spatially unresolved total intensity. 
+```
+```
+Note2: Descaned scheme avoids the spot shift on the SH sensor when the illumination is scanning.
 ```
 
 ### Wide-field imaging system
 
-For
+For SIM, 
 
 ```
 Give the example
