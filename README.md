@@ -21,7 +21,7 @@ b) See figure e for a schematic demonstration.
 ![figure e](https://github.com/Jessie-ucb/Adaptive-Optics/blob/master/nmeth.4218-F3.jpg)
 
 ```
-Note1: DO NOT need to compensate the aberation between samplet to the PMT, 
+Note1: DO NOT need to compensate the aberation between the sample and the PMT, 
        because the PMT records spatially unresolved total intensity. 
 ```
 
