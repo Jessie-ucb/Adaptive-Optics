@@ -9,34 +9,40 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
 For 2p raster-scanning imaging, we 
 
-× detect the fluorescence abberation on the SH-imaging path;
+1) detect the fluorescence abberation on the SH-imaging path;
 
-× correct the 2p laser illumination by setting a negative value on the deformable mirror;
+2) correct the 2p laser illumination by setting a negative value on the deformable mirror;
 
-× collect intensity pixel-by-pixel using PMT.
+3) collect intensity pixel-by-pixel using PMT.
 
 ```
-Note1: We DO NOT need to compensate the aberation between samplet to the PMT, because the PMT records spatially unresolved total intensity. 
+Note1: We DO NOT need to compensate the aberation between samplet to the PMT, 
+because the PMT records spatially unresolved total intensity. 
 ```
 ```
-Note2: Descaned scheme avoids the spot shift on the SH sensor when the illumination is scanning.
+Note2: Descanned scheme avoids spot shifting on the SH sensor when the illumination is scanning.
 ```
+
+* Open-loop Design
+
+Only the 2p illumination light passes through the DM. Can only do AO correction once.
+
+* Close-loop Design
+
+The DM controls both the illumination and the SH-imaging path. Can conduct iterative corrections.
+
 
 ### Wide-field imaging system
 
-For SIM, 
+For SIM, the main difference from 2p scanning imaging is that the sample-induced abberation CAN NOT be neglected, however, the illumination abberation (mainly represented as the shift of fringes's phases and frequencies) can be compensated in the process of SIM reconstruction. Therefore, we 
 
-```
-Give the example
-```
+1) using the 2p laser illumination, detect the fluorescence abberation on the SH-imaging path;
 
-And repeat
+2) correct the wide-field fluorecence abberation by setting a negative value on the deformable mirror.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+ ```
+ Note: the fluorecence abberation of SIM and SH-imaging are considered equal (assumption: they share as much light path as possible).
+ ```
 
 
 ## Indirect Wavefront Sensing
