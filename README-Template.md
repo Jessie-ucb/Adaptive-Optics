@@ -38,7 +38,7 @@ The DM controls both the illumination and the SH-imaging path. Can conduct itera
 
 For SIM, the main difference from 2p scanning imaging is that the sample-induced abberation CAN NOT be neglected, however, the illumination aberration (mainly represented as the shift of fringes's phases and frequencies) can be compensated in the process of SIM reconstruction. Therefore, we: 
 
-1) using the 2p laser illumination, detect the fluorescence abberation on the SH-imaging path;
+1) using the 2p laser illumination, detect the fluorescence aberration on the SH-imaging path;
 
 2) correct the wide-field fluorecence aberration by setting a negative value on the deformable mirror.
 
