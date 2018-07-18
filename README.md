@@ -21,7 +21,7 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
   Note: **DO NOT** need to compensate the aberation between the sample and the PMT, 
       because the PMT records spatially unresolved total intensity. 
 
-     ![figure e](https://github.com/Jessie-ucb/Adaptive-Optics/blob/master/nmeth.4218-F3.jpg)
+     ![figure e](master/nmeth.4218-F3.jpg)
 
 
 * Depending on whether or not the fluorescence goes back along the same galvos with the illumination light to the SH camera, we devide the optical system into descanned and non-descanned architectures. Descanned scheme avoids spot shifting on the SH sensor when the illumination is scanning (averaging effect, see Eric's paper).
