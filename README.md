@@ -8,7 +8,7 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
 ### Two-photon point-scanning system
 
-* For 2p raster-scanning imaging, AO aims to retrieve a tighted focused focal spot (diffraction-limited) to achieve both signal intensity and spatial resolution. In implementation, we: 
+* For 2p raster-scanning imaging, AO aims to retrieve a tighted focused focal spot (diffraction-limited) to achieve both signal intensity and spatial resolution. We **do NOT** need to compensate the aberation between the sample and the PMT, because the PMT records spatially unresolved total intensity. In implementation, we: 
 
        1. detect the fluorescence abberation on the SH-imaging path;
 
@@ -16,10 +16,7 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
        3. collect intensity pixel-by-pixel using PMT.
 
-* See figure e for a schematic demonstration.
-
-  Note: **DO NOT** need to compensate the aberation between the sample and the PMT, 
-      because the PMT records spatially unresolved total intensity. 
+  See figure e for a schematic demonstration.
 
      ![figure e](https://github.com/Jessie-ucb/Adaptive-Optics/blob/master/nmeth.4218-F3.jpg)
 
