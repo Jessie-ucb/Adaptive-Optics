@@ -18,7 +18,7 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
 * See figure e for a schematic demonstration.
 
-  Note: DO NOT need to compensate the aberation between the sample and the PMT, 
+  Note: **DO NOT** need to compensate the aberation between the sample and the PMT, 
       because the PMT records spatially unresolved total intensity. 
 
      ![figure e](https://github.com/Jessie-ucb/Adaptive-Optics/blob/master/nmeth.4218-F3.jpg)
@@ -36,7 +36,7 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
 ### Wide-field imaging system
 
-* For wide-field AO, we still use 2p illumination to generate fluorescence and detect the wavefront aberration using SH sensor. The difference from 2p scanning imaging is that the sample-induced abberation CAN NOT be neglected, however, the illumination aberration in SIM system (mainly represented as the shift of fringes's phases and frequencies) can be compensated in the process of SIM reconstruction. Therefore, we correct the aberration in the SIM fluorecence imaging path using a deformable mirror. To conclude, we: 
+* For wide-field AO, we still use 2p illumination to generate fluorescence and detect the wavefront aberration using SH sensor. The difference from 2p scanning imaging is that the sample-induced abberation **CAN NOT** be neglected, however, the illumination aberration in SIM system (mainly represented as the shift of fringes's phases and frequencies) can be compensated in the process of SIM reconstruction. Therefore, we correct the aberration in the SIM fluorecence imaging path using a deformable mirror. To conclude, we: 
 
        1. using the 2p laser illumination, detect the fluorescence aberration on the SH-imaging path;
 
