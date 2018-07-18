@@ -25,9 +25,9 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
 * For 2p imaging, the deformable mirror is used to correct the aberration on the illumination path. As for the fluorescence detection path, we can either apply the same correction or not, leading to two different designs:
 
-     - **Open-loop Design**: Only the 2p illumination light passes through the DM. Can only do AO correction once.
+      1. **Open-loop**: only the 2p illumination passes through the DM. Can only do AO correction once.
 
-     - **Close-loop Design**: The DM controls both the illumination and the SH-imaging path. Can conduct iterative corrections.
+      2. **Close-loop**: the DM controls both the illumination and the SH-imaging. Can correct iteratively.
 
 
 
