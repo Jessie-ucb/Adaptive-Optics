@@ -36,14 +36,15 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
 ### Wide-field imaging system
 
-For wide-field AO, we still use 2p illumination to generate fluorescence and detect the wavefront aberration using SH sensor. The difference from 2p scanning imaging is that the sample-induced abberation CAN NOT be neglected, however, the illumination aberration in SIM system (mainly represented as the shift of fringes's phases and frequencies) can be compensated in the process of SIM reconstruction. Therefore, we correct the aberration in the SIM fluorecence imaging path using a deformable mirror. To conclude, we: 
+* For wide-field AO, we still use 2p illumination to generate fluorescence and detect the wavefront aberration using SH sensor. The difference from 2p scanning imaging is that the sample-induced abberation CAN NOT be neglected, however, the illumination aberration in SIM system (mainly represented as the shift of fringes's phases and frequencies) can be compensated in the process of SIM reconstruction. Therefore, we correct the aberration in the SIM fluorecence imaging path using a deformable mirror. To conclude, we: 
 
        1. using the 2p laser illumination, detect the fluorescence aberration on the SH-imaging path;
 
        2. correct the wide-field fluorecence aberration by setting a negative value on the DM.
 
- Note: the fluorecence aberration of SIM and SH-imaging are considered equal (assumption: they share as much light path as possible).
+   Note: the fluorecence aberration of SIM and SH-imaging are considered equal (assumption: they share as much light path as possible).
 
+* Open-loop or close-loop and descan or non-descan are specified according to the 2p illumination and SH detection design.
 
 
 ## Indirect Wavefront Sensing
