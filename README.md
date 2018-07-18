@@ -39,7 +39,9 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
        2. correct the wide-field fluorecence aberration by setting a negative value on the DM.
 
-  > Note: Open-loop or close-loop and descan or non-descan are specified according to the 2p illumination and SH detection design.
+  > Note: SIM and SH imaging should share same optical path as much as possible.
+  
+* Open-loop or close-loop and descan or non-descan are specified according to the 2p illumination and SH detection design.
 
 
 ## Indirect Wavefront Sensing
