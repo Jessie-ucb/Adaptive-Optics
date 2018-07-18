@@ -24,13 +24,13 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
      ![figure e](https://github.com/Jessie-ucb/Adaptive-Optics/blob/master/nmeth.4218-F3.jpg)
 
 
-* Depending on whether or not the fluorescence goes back along the same galvos with the illumination light to the SH camera, we devide the optical system into descanned and non-descanned architectures. Descanned scheme avoids spot shifting on the SH sensor when the illumination is scanning (averaging effect, see Eric's paper).
+* Depending on whether or not the fluorescence goes back along the same galvos with the illumination light to the SH camera, we devide the optical system into **descanned** and **non-descanned** architectures. Descanned scheme avoids spot shifting on the SH sensor when the illumination is scanning (averaging effect, see Eric's paper).
 
 * For 2p imaging, the deformable mirror is used to correct the aberration on the illumination path. As for the fluorescence detection path, we can either apply the same correction or not, leading to two different designs:
 
-       1. Open-loop Design: Only the 2p illumination light passes through the DM. Can only do AO correction once.
+     - **Open-loop Design**: Only the 2p illumination light passes through the DM. Can only do AO correction once.
 
-       2. Close-loop Design: The DM controls both the illumination and the SH-imaging path. Can conduct iterative corrections.
+     - **Close-loop Design**: The DM controls both the illumination and the SH-imaging path. Can conduct iterative corrections.
 
 
 
