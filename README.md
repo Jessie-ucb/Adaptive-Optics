@@ -46,8 +46,6 @@ Using a direct wavefront sensor (e.g. Shack-Hoffman sensor or lens-array + CCD c
 
 ## Indirect Wavefront Sensing
 
-Estimate the wavefront distortion based on some metrics (e.g. intensity, spot shift) and correct using spatial light modulator. Do not need guide-star as in direct wavefront sensing. 
+Estimate the wavefront distortion based on some metrics (e.g. intensity, spot shift) and correct using spatial light modulator. Do not need guide-star as in direct wavefront sensing. Applicable for more scattering sample or higher depth.
 
-
-a
 
